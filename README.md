@@ -1,0 +1,1 @@
+# wercker-box-rvm-tesseract-ocr
