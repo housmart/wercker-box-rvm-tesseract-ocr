@@ -31,4 +31,4 @@ script: |
     ./configure
     sudo make
     sudo make install
-    ldconfig
+    sudo ldconfig
