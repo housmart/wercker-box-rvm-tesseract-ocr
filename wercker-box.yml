@@ -24,7 +24,7 @@ script: |
     sudo apt-get install libleptonica-dev -y
     sudo apt-get install tar
     cd /tmp
-    wget https://ja.osdn.net/frs/g_redir.php?m=netix&f=/tesseract-ocr-alt/tesseract-ocr-3.02.02.tar.gz
+    wget -O tesseract-ocr-3.02.02.tar.gz  "https://ja.osdn.net/frs/g_redir.php?m=netix&f=/tesseract-ocr-alt/tesseract-ocr-3.02.02.tar.gz"
     tar zxf tesseract-ocr-3.02.02.tar.gz
     cd tesseract-ocr
     ./autogen.sh
